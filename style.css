@@ -12,25 +12,34 @@ body {
     padding: 20px;
     text-align: center;
   }
+
+  h1{
+    background: linear-gradient(to right, black, red);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family:monospace;
+    font-size: 70px;
+  }
   
-  nav ul {
+  navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
-  nav ul li {
+  navbar ul li {
     display: inline;
     margin-right: 20px;
   }
   
-  nav ul li a {
+  navbar ul li a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s; /* Add transition for smooth effect */
   }
   
-  nav ul li a:hover {
+  navbar ul li a:hover {
     color: rgb(44, 42, 42); /* Change text color to black on hover */
   }
   
