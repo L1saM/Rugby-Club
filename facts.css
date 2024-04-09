@@ -1,16 +1,20 @@
-/* Rugby club stylesheet for homepage */
+/* Facts page stylesheet */
 
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #000;
-    background-image: url('images/bunting.jpg'); /* Replace 'background-image.jpg' with the path to your image */
-    /* background-size: cover; This ensures that the background image covers the entire viewport */
+    background-image: url('images/england3.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover; /* This ensures that the background image covers the entire viewport */
     background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* No repeating images */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    /* color: white; Set text color to white for better contrast */
     position: relative; /* Set position to relative to allow positioning children elements */
     z-index: 1; /* Set a higher z-index than the background image */
+    /* background-color: rgba(0, 0, 0, 0.5); Add a semi-transparent background color to improve text readability */
+    
   }
+ 
   
   header {
     background-color: #ff0000;
@@ -25,7 +29,7 @@ body {
     padding: 10px;
     text-align: center;
     font-family:monospace;
-    font-size: 70px;
+    font-size: 50px;
   }
   
   navbar ul {
@@ -57,3 +61,11 @@ body {
   section h2 {
     color: #ff0000;
   }
+
+  h2{
+    color: #ff0000;
+  }
+
+p{
+  font-size: 20px;
+}

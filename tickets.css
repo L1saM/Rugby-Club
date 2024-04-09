@@ -1,15 +1,9 @@
-/* Rugby club stylesheet for homepage */
+/* Tickets page stylesheet */
 
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #000;
-    background-image: url('images/bunting.jpg'); /* Replace 'background-image.jpg' with the path to your image */
-    /* background-size: cover; This ensures that the background image covers the entire viewport */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* No repeating images */
-    position: relative; /* Set position to relative to allow positioning children elements */
-    z-index: 1; /* Set a higher z-index than the background image */
   }
   
   header {
@@ -25,7 +19,7 @@ body {
     padding: 10px;
     text-align: center;
     font-family:monospace;
-    font-size: 70px;
+    font-size: 50px;
   }
   
   navbar ul {
@@ -57,3 +51,39 @@ body {
   section h2 {
     color: #ff0000;
   }
+
+  .form-group {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #020202;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff0000;
+}

@@ -1,15 +1,9 @@
-/* Rugby club stylesheet for homepage */
+/* Stylesheet for scoreboard page */
 
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #000;
-    background-image: url('images/bunting.jpg'); /* Replace 'background-image.jpg' with the path to your image */
-    /* background-size: cover; This ensures that the background image covers the entire viewport */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* No repeating images */
-    position: relative; /* Set position to relative to allow positioning children elements */
-    z-index: 1; /* Set a higher z-index than the background image */
   }
   
   header {
@@ -25,7 +19,7 @@ body {
     padding: 10px;
     text-align: center;
     font-family:monospace;
-    font-size: 70px;
+    font-size: 50px;
   }
   
   navbar ul {
